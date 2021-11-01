@@ -15,4 +15,6 @@ CRUD with RestAPI using Express.js
 3. PUT    : localhost:3010/api/article/:id   => Endpoint ini digunakan untuk mengubah atau mengedit data berdasarkan id pada tabel Article.
 4. DELETE : localhost:3010/api/article/:id   => Endpoint ini digunakan untuk menghapus data berdasarkan id pada tabel Article.
 
+#### Postman URL ####
+https://documenter.getpostman.com/view/13118621/UVByJ9vp
 
