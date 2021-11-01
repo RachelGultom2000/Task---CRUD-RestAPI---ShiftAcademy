@@ -6,11 +6,11 @@ const {
   } = require("../repository/articleRepository");
   
   module.exports = {
+    // Create Article
     createArticleService(req, res) {
       const param = {
         title: req.body.title,
         description: req.body.description,
-        // name: req.body.name,
         userID : req.body.userID,
       };
       articleCreate(param)
@@ -31,6 +31,7 @@ const {
         });
     },
   
+    // Get list of Article
     getArticleService(req, res) {
       const attributes = req.body.attributes
       const page = req.query.page
@@ -66,12 +67,12 @@ const {
         });
     },
   
+    // Update Article
     updateArticleService(req, res) {
       const id = req.params.id;
       const param = {
         title: req.body.title,
         description: req.body.description,
-        // name: req.body.name,
         userID : req.body.userID,
       };
       articleUpdate(param.id)
@@ -92,6 +93,7 @@ const {
         });
     },
   
+    // Delete Article
     deleteArticleService(req, res) {
       const id = req.params.id;
       articleDelete(id)

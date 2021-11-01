@@ -1,0 +1,29 @@
+{
+  "name": "simplerestapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.2",
+    "sequelize": "^6.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RachelGultom2000/Task---CRUD-Rest-API---Shift-Academy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RachelGultom2000/Task---CRUD-Rest-API---Shift-Academy/issues"
+  },
+  "homepage": "https://github.com/RachelGultom2000/Task---CRUD-Rest-API---Shift-Academy#readme"
+}
